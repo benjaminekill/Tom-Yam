@@ -33,15 +33,9 @@
 <body>
 	
 	
-	
-	
-	
-	<table>
-	<tr>
-		<td>ภาพ</td>
 
-
-		<td></table><div class="page-container">
+	
+	<div class="page-container">
     <div class="container" style="position: relative">
       <div class="marketing">
         <h2>Noodle TomYam Mi.Me</h2>
@@ -58,7 +52,7 @@
 
 <!-- Button trigger modal --></p>
 <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
-  Launch demo modal
+ สั่งรายการ
 </button>
 
 <!-- Modal -->
@@ -75,7 +69,7 @@
       <div class="modal-body">
         <p>&nbsp;</p>
         <p>&nbsp;</p>
-
+		
 
 
 
