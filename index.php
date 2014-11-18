@@ -51,17 +51,12 @@
       <br />
 		  <div class="row">
 			  <div class="span10">
-  				<p>
-				
-
-				
-
-
-          </p>
+<p>เรียนเชิญลูกค้าทุกท่านแวะรับประทานก๋วยเตี๋ยวต้มยำบ้านลายจุดข้างวังของเราได้เลย</p>
+<p>โดยทางร้านเรานั้นมีของสดจากทะเลและอื่นๆอีกมากมายที่รอให้ท่านลูกค้ามาเลือกรับประทานได้เลย</p>
          
 
 
-<!-- Button trigger modal -->
+<!-- Button trigger modal --></p>
 <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
   Launch demo modal
 </button>
@@ -71,22 +66,21 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only"></span></button>
         
 		
 		
-		<h4 class="modal-title" id="myModalLabel">Modal title</h4>
+		<h4 class="modal-title" id="myModalLabel">รายการสั่ง</h4>
       </div>
       <div class="modal-body">
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
 
 
 
 
 
 
-
-
-        ...
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
