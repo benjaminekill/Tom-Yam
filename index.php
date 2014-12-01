@@ -49,11 +49,11 @@
             <td width="405"><input type="image" name="im2" id="im2" src="im/Cover1-620x392.jpg"></td>
           </tr>
           <tr>
-            <td><input type="image" name="im3" id="ima3" src="im/IMG_7991-Cover-620x392.jpg"></td>
+            <td><input type="image" name="im3" id="im3" src="im/IMG_7991-Cover-620x392.jpg"></td>
             <td><input type="image" name="im4" id="im4" src="im/sapan-620x392.JPG"></td>
           </tr>
         </table>
-        <br />
+
         
         <!-- Button trigger modal -->      
       </form>
@@ -74,15 +74,11 @@
       </div>
       <div class="modal-body">
         
-		<p>ก๋วยเตี๋ยวต้มยำของร้านบ้านลายจุดข้างวัง เริ่มต้นในราคาชามละ 35
-								บาท</p>
-							<p>โดยทางร้านจะใส่ หมู ลูกชิ้น หมูสับ ตับหลวก
-								แต่ถ้าลูกค้าท่านใดที่จะเลือกไม่รับของที่ทางร้านได้ใส่ให้
-								กรุณากดเลือกได้เลยค่ะ</p>
+		<p>&nbsp;</p>
 							<p>
-							
-				
-		</p>
+							  
+							  
+	    </p>
 							<p>&nbsp;</p>
 							<p>
 							  
