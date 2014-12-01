@@ -1,4 +1,4 @@
-<!doctype html>
+﻿<!doctype html>
 <html>
 <head>
   <meta charset="utf-8">
@@ -32,34 +32,77 @@
 </head>
 <body>
 	
-	
+	<form action="index.php" method="post">
 
 	
 	<div class="page-container">
     <div class="container" style="position: relative">
       <div class="marketing">
-        <h2>Welcome Noodle TomYam Mi.Me</h2>
+        <h2>Noodle TomYam Mi.Me</h2>
         
 			 
       </div>
-      <form name="form1" method="post" action="">
-        <table width="426" height="135" border="0">
-          <tr>
-            <td width="206"><input type="image" name="im1" id="im1" src="im/1-620x392.JPG"></td>
-            <td width="405"><input type="image" name="im2" id="im2" src="im/Cover1-620x392.jpg"></td>
-          </tr>
-          <tr>
-            <td><input type="image" name="im3" id="im3" src="im/IMG_7991-Cover-620x392.jpg"></td>
-            <td><input type="image" name="im4" id="im4" src="im/sapan-620x392.JPG"></td>
-          </tr>
-        </table>
+      <br />
+		  <div class="row">
+			  <div class="span10">
+<p>เรียนเชิญลูกค้าทุกท่านแวะรับประทานก๋วยเตี๋ยวต้มยำบ้านลายจุดข้างวังของเราได้เลย</p>
+<p>โดยทางร้านเรานั้นมีของสดจากทะเลและอื่นๆอีกมากมายที่รอให้ท่านลูกค้ามาเลือกรับประทานได้เลย</p>
+         
 
-        
-        <!-- Button trigger modal -->      
-      </form>
+
+<!-- Button trigger modal --></p>
 <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
- MENU
+ สั่งรายการ
 </button>
+<br>
+<br>
+<br>
+รายการที่สั่ง
+<br>
+<?php 
+error_reporting (E_ALL ^ E_NOTICE);
+if ($_POST['N_1']!=null) {
+	echo "เส้นใหญ่	".$_POST['N_1']." ชาม"."<br>" ;
+}
+if ($_POST['N_2']!=null) {
+	echo "เส้นเล็ก	".$_POST['N_2']." ชาม"."<br>" ;
+}
+if ($_POST['N_3']!=null) {
+	echo "เส้นหมีเหลือง 	".$_POST['N_3']." ชาม"."<br>" ;
+}
+if ($_POST['N_4']!=null) {
+	echo "เส้นหมี	".$_POST['N_4']." ชาม"."<br>" ;
+}
+
+
+if ($_POST['T_1']!=null) {
+	echo "กุ้งแม่น้ำ	".$_POST['T_1']." ตัว"."<br>" ;
+}
+if ($_POST['T_2']!=null) {
+	echo "ปลาหมึก	".$_POST['T_2']." ตัว"."<br>" ;
+}
+if ($_POST['T_3']!=null) {
+	echo "ไข่ต้มมะตูม	".$_POST['T_3']." ฟอง"."<br>" ;
+}
+	
+
+
+
+?>
+<br>
+จำนวน ราคา  
+<?php
+
+
+
+echo (($_POST['N_1']*35)+($_POST['N_2']*35)+($_POST['N_3']*35)+($_POST['N_4']*35)) ;
+
+
+?>
+
+
+
+
 
 <!-- Modal -->
 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -74,25 +117,136 @@
       </div>
       <div class="modal-body">
         
-		<p>&nbsp;</p>
+		<p>ก๋วยเตี๋ยวต้มยำของร้านบ้านลายจุดข้างวัง เริ่มต้นในราคาชามละ 35
+								บาท</p>
+							<p>โดยทางร้านจะใส่ หมู ลูกชิ้น หมูสับ ตับหลวก
+								แต่ถ้าลูกค้าท่านใดที่จะเลือกไม่รับของที่ทางร้านได้ใส่ให้
+								กรุณากดเลือกได้เลยค่ะ</p>
 							<p>
-							  
-							  
-	    </p>
-							<p>&nbsp;</p>
+							
+				
+		</p>
+							<p>** กรุณาเลือกเส้น</p>
+							<table width="438" border="0">
+							  <tr>
+							    <td width="104" valign="top"><div align="center">เส้นใหญ่</div></td>
+							    <td width="108" valign="top"><div align="center">จำนวน (ชาม)</div></td>
+							    <td width="204">
+							      <div align="center">
+							        <input type="text" name="N_1" id="N_1" />
+							         <label for="N_1"></label>
+						          </div>
+							     
+						        </td>
+						      </tr>
+							  <tr>
+							    <td valign="top"><div align="center">เส้นเล็ก</div></td>
+							    <td valign="top"><div align="center">จำนวน (ชาม)</div></td>
+							    <td>
+							      <div align="center">
+							        <input type="text" name="N_2" id="N_2">
+							        <label for="N_2"></label>
+						          </div>
+							      
+						        </td>
+						      </tr>
+							  <tr>
+							    <td valign="top"><div align="center">เส้นหมีเหลือง</div></td>
+							    <td valign="top"><div align="center">จำนวน (ชาม)</div></td>
+							    <td>
+							      <div align="center">
+							        <input type="text" name="N_3" id="N_3">
+							        <label for="N_3"></label>
+						          </div>
+							      
+						        </td>
+						      </tr>
+	    </table>
+							<table width="438" border="0">
+							  <tr>
+							    <td width="103" valign="top"><div align="center">เส้นหมี</div></td>
+							    <td width="105" valign="top"><div align="center">จำนวน (ชาม)</div></td>
+							    <td width="208">
+							      <div align="center">
+							        <input type="text" name="N_4" id="N_4">
+							        <label for="N_4"></label>
+						          </div>
+							      
+						        </td>
+						      </tr>
+	    </table>
+							<p>** กรุณาเลือกท็อปปิ้ง</p>
+                            
+							<table width="400" border="0">
+							  <tr>
+							    <td width="97" height="44" valign="top"><div align="center">กุ้งแม่น้ำ</div></td>
+							    <td width="120" valign="top">  <div align="center">จำนวน</div></td>
+							    <td width="204">
+							      <div align="center">
+							        <input type="text" name="T_1" id="T_1">
+							        <label for="T_1"></label>
+						          </div>
+							      
+						       </td>
+						      </tr>
+							  <tr>
+							    <td height="46" valign="top"><div align="center">ปลาหมึก</div></td>
+							    <td valign="top"><div align="center">จำนวน</div></td>
+							    <td>
+							      <div align="center">
+							        <input type="text" name="T_2" id="T_2">
+							        <label for="T_2"></label>
+						          </div>
+							      
+						        </td>
+						      </tr>
+							  <tr>
+							    <td height="46" valign="top"><div align="center">ไข่ต้มมะตูม</div></td>
+							    <td valign="top" ><div align="center">จำนวน</div></td>
+							    <td>
+							      <div align="center">
+							        <input type="text" name="T_3" id="T_3">
+							        <label for="T_3"></label>
+						          </div>
+							      
+						        </td>
+						      </tr>
+	    </table>
+							<p>** กรุณาเลือกรสชาติ
+							</p>
+							
+							  <p>
+							    <label>
+							      <input type="radio" name="s_1" value="ต้มยำ" id="s_1">
+							      ต้มยำ</label>
+							    
+							    <label>
+							      <input type="radio" name="s_" value="radio" id="2">
+							      น้ำตก</label>
+							    
+							    <label>
+							      <input type="radio" name="s_" value="radio" id="3">
+							      น้ำใส่</label>
+							    
+							    <label>
+							      <input type="radio" name="s_" value="radio" id="4">
+							      แห้ง</label>
+							    
+						      </p>
+	    
 							<p>
-							  
-						    </p>
+								
+							</p>
 							<p></p>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+        <button type="reset" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="submit" class="btn btn-primary">สั้งรายการ</button>
 
 
 
 
-
+</form>
 
 
 
