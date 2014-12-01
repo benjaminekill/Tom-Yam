@@ -67,14 +67,123 @@
 		<h4 class="modal-title" id="myModalLabel">รายการสั่ง</h4>
       </div>
       <div class="modal-body">
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-		
-
-
-
-
-
+        
+		<p>ก๋วยเตี๋ยวต้มยำของร้านบ้านลายจุดข้างวัง เริ่มต้นในราคาชามละ 35
+								บาท</p>
+							<p>โดยทางร้านจะใส่ หมู ลูกชิ้น หมูสับ ตับหลวก
+								แต่ถ้าลูกค้าท่านใดที่จะเลือกไม่รับของที่ทางร้านได้ใส่ให้
+								กรุณากดเลือกได้เลยค่ะ</p>
+							<p>
+							
+				
+		</p>
+							<p>** กรุณาเลือกเส้น</p>
+							<table width="438" border="1">
+							  <tr>
+							    <td width="104"><div align="center">เส้นใหญ่</div></td>
+							    <td width="108"><div align="center">จำนวน (ชาม)</div></td>
+							    <td width="204"><form name="form1" method="post" action="">
+							      <div align="center">
+							        <input type="text" name="textfield4" id="textfield4">
+						          </div>
+							      <label for="textfield4"></label>
+						        </form></td>
+						      </tr>
+							  <tr>
+							    <td><div align="center">เส้นเล็ก</div></td>
+							    <td><div align="center">จำนวน (ชาม)</div></td>
+							    <td><form name="form6" method="post" action="">
+							      <div align="center">
+							        <input type="text" name="textfield5" id="textfield5">
+						          </div>
+							      <label for="textfield5"></label>
+						        </form></td>
+						      </tr>
+							  <tr>
+							    <td><div align="center">เส้นหมีเหลือง</div></td>
+							    <td><div align="center">จำนวน (ชาม)</div></td>
+							    <td><form name="form7" method="post" action="">
+							      <div align="center">
+							        <input type="text" name="textfield6" id="textfield6">
+						          </div>
+							      <label for="textfield6"></label>
+						        </form></td>
+						      </tr>
+	    </table>
+							<table width="438" border="1">
+							  <tr>
+							    <td width="103"><div align="center">เส้นหมี</div></td>
+							    <td width="105"><div align="center">จำนวน (ชาม)</div></td>
+							    <td width="208"><form name="form8" method="post" action="">
+							      <div align="center">
+							        <input type="text" name="textfield7" id="textfield7">
+						          </div>
+							      <label for="textfield7"></label>
+						        </form></td>
+						      </tr>
+	    </table>
+							<p>&nbsp;</p>
+							<p>&nbsp;</p>
+							<p>** กรุณาเลือกท็อปปิ้ง</p>
+							<table width="400" border="0">
+							  <tr>
+							    <td width="97" height="44" valign="top"><div align="center">กุ้งแม่น้ำ</div></td>
+							    <td width="120" valign="top">  <div align="center">จำนวน</div></td>
+							    <td width="204"><form name="form2" method="post" action="">
+							      <div align="center">
+							        <input type="text" name="textfield" id="textfield">
+						          </div>
+							      <label for="textfield"></label>
+						        </form></td>
+						      </tr>
+							  <tr>
+							    <td height="46"><div align="center">ปลาหมึก</div></td>
+							    <td><div align="center">จำนวน</div></td>
+							    <td><form name="form4" method="post" action="">
+							      <div align="center">
+							        <input type="text" name="textfield2" id="textfield2">
+						          </div>
+							      <label for="textfield2"></label>
+						        </form></td>
+						      </tr>
+							  <tr>
+							    <td height="46" valign="top"><div align="center">ไข่ต้มมะตูม</div></td>
+							    <td valign="top" ><div align="center">จำนวน</div></td>
+							    <td><form name="form5" method="post" action="">
+							      <div align="center">
+							        <input type="text" name="textfield3" id="textfield3">
+						          </div>
+							      <label for="textfield3"></label>
+						        </form></td>
+						      </tr>
+	    </table>
+							<p>&nbsp; </p>
+							<p></p>
+							<p>** กรุณาเลือกรสชาติ</p>
+							<form name="form3" method="post" action="">
+							  <p>
+							    <label>
+							      <input type="radio" name="รสชาติ" value="radio" id="รสชาติ_0">
+							      ต้มยำ</label>
+							    
+							    <label>
+							      <input type="radio" name="รสชาติ" value="radio" id="รสชาติ_1">
+							      น้ำตก</label>
+							    
+							    <label>
+							      <input type="radio" name="รสชาติ" value="radio" id="รสชาติ_2">
+							      น้ำใส่</label>
+							    
+							    <label>
+							      <input type="radio" name="รสชาติ" value="radio" id="รสชาติ_3">
+							      แห้ง</label>
+							    
+						      </p>
+	    </form>
+							<p>
+								
+							</p>
+							<p></p>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
